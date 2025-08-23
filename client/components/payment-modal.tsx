@@ -277,22 +277,22 @@ const startPolling = (orderId: string) => {
   const walletAddress = paymentAddress
 
   const paymentOptions = [
-    {
-      id: "mpesa",
-      name: "M-Pesa",
-      description: "Mobile Money",
-      icon: "/crypto/mpesa2.png",
-      color: "bg-light",
-      type: "cash",
-    },
-    {
-      id: "cUSD",
-      name: "cUSD",
-      description: "Virtual dollars",
-      icon: "/crypto/cusd.png",
-      color: "bg-light",
-      type: "crypto",
-    },
+    // {
+    //   id: "mpesa",
+    //   name: "M-Pesa",
+    //   description: "Mobile Money",
+    //   icon: "/crypto/mpesa2.png",
+    //   color: "bg-light",
+    //   type: "cash",
+    // },
+    // {
+    //   id: "cUSD",
+    //   name: "cUSD",
+    //   description: "Virtual dollars",
+    //   icon: "/crypto/cusd.png",
+    //   color: "bg-light",
+    //   type: "crypto",
+    // },
     {
       id: "USDT",
       name: "USDT",
@@ -556,14 +556,14 @@ useEffect(() => {
           Select Network
         </Label>
         <div className="grid grid-cols-2 gap-2">
-          <Button
+          {/* <Button
             variant="outline"
             onClick={() => setSelectedNetwork("celo")}
             className="flex items-center gap-2"
           >
             <img src="/crypto/celo.png" alt="Celo" className="w-5 h-5" />
             Celo
-          </Button>
+          </Button> */}
           <Button
             variant="outline"
             onClick={() => setSelectedNetwork("solana")}
