@@ -32,7 +32,10 @@ app.use(cors({
       "https://quest-local-client.vercel.app",
       "https://www.questpanda.xyz",
       "https://questpanda.xyz",
-      "https://api.questpanda.xyz"
+      "https://api.questpanda.xyz",
+      "https://app.questpanda.xyz",
+      "https://solana-questpanda-client.vercel.app",
+      "https://solana.questpanda.xyz",
     ];
 
     if (allowedOrigins.includes(origin) || !origin) {
