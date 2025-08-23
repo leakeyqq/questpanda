@@ -1,0 +1,5 @@
+w3a-example/
+node_modules/
+package.json
+package-lock.json
+smart-contract/artifacts/build-info

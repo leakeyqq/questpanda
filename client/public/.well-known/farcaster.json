@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEwNzgwMzcsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhCMDdhNTMyMzY1RTg4YzEwNUNGYjg1NkU3ZDJlMDA0NUE4QmZkMmYxIn0",
+    "payload": "eyJkb21haW4iOiJ3d3cucXVlc3RwYW5kYS54eXoifQ",
+    "signature": "MHgwODJiYWRlOTg2ODFhMDJjY2MzZmU3MDA3ZTIwODEyNTQwNDQzYTJkNTE0ZGE1YjhhMmViMmY5YWNmMGZlNTMyNmY2NzgxYTY0ZTFlODk1N2M0YzQwZDAxYmNmOTZjYjU5NDFlMTgwYjJiOTFlZTIwYzcxMmU2ZDM1ZmM3OTIzMzFi"
+  },
+  "frame": {
+    "version": "1",
+    "name": "QuestPanda",
+    "iconUrl": "https://www.questpanda.xyz/icon.png",
+    "homeUrl": "https://www.questpanda.xyz",
+    "imageUrl": "https://www.questpanda.xyz/icon.png",
+    "buttonTitle": "🚩 Start",
+    "splashImageUrl": "https://www.questpanda.xyz/icon.png",
+    "splashBackgroundColor": "#ffffff",
+    "webhookUrl": "https://www.questpanda.xyz/api/webhook"
+  }
+}
