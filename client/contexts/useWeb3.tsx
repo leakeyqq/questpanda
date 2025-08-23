@@ -96,7 +96,9 @@ if (!(await isUsingWeb3Auth())) {
         let amount = Number(_amount) * 1.01 
 
         let decimals = checkDecimals(tokenSymbol)
-        const amountInWei = (Number(amount) * (10**decimals));
+        // const amountInWei = (Number(amount) * (10**decimals));
+        const amountInWei = toWeiAmount(amount, decimals); // returns string
+
         const tokenContractAddress = checkContractAddress(tokenSymbol)
         const spenderAddress = process.env.NEXT_PUBLIC_QUESTPANDA_SMART_CONTRACT;
 
@@ -1128,6 +1130,22 @@ function checkSolanaMintAddress(tokenSymbol: string): string {
   if (!mint) throw new Error(`Unsupported token symbol for Solana: ${tokenSymbol}`);
   return mint;
 }
+function toWeiAmount(amount: string | number, decimals: number): string {
+  // Parse safely using BigInt
+  const [whole, fraction = ""] = String(amount).split(".");
+
+  // scale the whole part
+  let wei = BigInt(whole) * 10n ** BigInt(decimals);
+
+  if (fraction.length > 0) {
+    // trim/pad fraction to match decimals
+    const fracPadded = fraction.padEnd(decimals, "0").slice(0, decimals);
+    wei += BigInt(fracPadded);
+  }
+
+  return wei.toString();
+}
+
 async function isUsingWeb3Auth() {
   const web3auth = getWeb3AuthInstance();
 
@@ -1139,6 +1157,7 @@ async function isUsingWeb3Auth() {
     return false;
   }
 }
+
 
     return {
         address: walletClient?.account.address || address,
