@@ -39,7 +39,7 @@ Are you a content creator? Create fun videos about products, share online and ea
           </div>
 
                     {/* Fancy Discover Creators Text */}
-          <div className="mt-12">
+          <div className="mt-12 hidden">
             <Link href="/discover" className="group inline-block">
               <div className="relative">
                 {/* Background glow effect */}
