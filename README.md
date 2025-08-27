@@ -2,10 +2,10 @@
   <img src="https://res.cloudinary.com/dcfln9xqx/image/upload/v1746429284/my-business-name-high-resolution-logo-transparent_b4nexu.png" alt="Questpanda Logo" width="200"/>
 </p>
 
-<h1 align="center" style="color:#ff69b4;">🎀 Questpanda 🎀</h1>
+<h1 align="center" style="color:#14F195;">🐼 Questpanda on Solana 🐼</h1>
 
 <p align="center">
-  <em>The classy way to complete quests and earn rewards</em><br/>
+  <em>The Web3-native way to launch quests & reward creators on Solana</em><br/>
   <a href="https://www.questpanda.xyz">🌐 www.questpanda.xyz</a>
 </p>
 
@@ -13,45 +13,75 @@
 
 ## 🌸 About Questpanda
 
-**Questpanda** an app that pays content creators for creating and posting short promotional videos for brands on TikTok and other socials. It is your all-in-one platform for exploring, completing, and rewarding quests. Whether you're launching marketing campaigns, engaging users, or building community momentum — Questpanda makes it seamless, fun, and stylish.
+**Questpanda** is a Web3 app that empowers brands to launch marketing campaigns (“quests”) and rewards content creators who post short promotional videos on TikTok, X, and other social platforms.  
+
+With **Solana’s speed & low fees**, creators receive instant, borderless rewards in **USDC-SPL** directly to their Solana wallets.  
+
+Questpanda is the **bridge between creators, brands, and the Solana ecosystem**.  
 
 ---
 
 ## 💖 Features
 
-- 🌷 **Elegant Quest Dashboard** – Organize and launch your quests in style as a brand 
-- 🐼 **Seamless User Experience** – Smooth, mobile-friendly, and visually delightful  
-- 🎁 **Reward System** – Motivate and reward content creators with ease  
-- 🌐 **Web3 Ready** – Minipay wallet support  
-- 🛡️ **Secure and Scalable** – Built with modern best practices  
-
-## How it works 
-### For brands
-
-- A business/brand signs up on Questpanda.
-- The business creates a marketing campaign on the app. We call it a quest.
-- The business deposits cUSD into the prize pool. 
-- The prize pool is what content creators will be competing for and the best videos will get rewards from the prize pool.
-
-### For Content creators 
-
-- Content creators sign up on the platform.
-- They can view quests posted by different brands.
-- They can participate in a quest by creating and posting the promotional video on social media.
-- After they complete the quest they can earn rewards in cUSD if they have been selected as the best videos.
-
-
+- 🌷 **Elegant Quest Dashboard** – Brands launch & manage campaigns in style  
+- 🐼 **Creator-Friendly UX** – Smooth, mobile-first, Web3-native  
+- 🎁 **On-Chain Reward System** – Rewards distributed in **USDC on Solana**  
+- 🔗 **Solana Wallet Support** – Phantom, Solflare, Backpack & more  
+- ⚡ **Fast & Affordable** – Powered by Solana’s 400ms block time & low fees  
+- 🛡️ **Secure & Transparent** – Prize pools & rewards verifiable on-chain  
 
 ---
 
-## 🚀 Minipay integration
+## 🎬 How It Works
 
-### Brands
+### For Brands
+1. **Sign up** on Questpanda.  
+2. **Create a quest** → describe the campaign, goals, & reward structure.  
+3. **Deposit USDC-SPL** into the **prize pool** via Solana Pay or connected wallet.  
+4. Content creators compete, and top-performing videos are rewarded from the prize pool.  
 
-- Brands can create and post quests on our miniapp on Minipay wallet
-- Brands can deposits cUSD into the prize pool and pay with their Minipay wallet.
+### For Content Creators
+1. **Sign up** with your Solana wallet (Phantom, Backpack, Solflare).  
+2. **Browse available quests** from brands.  
+3. **Create & post content** on TikTok, X, or Instagram.  
+4. If your video is among the best, **earn rewards instantly in USDC-SPL** sent directly to your wallet.  
 
-### Content creators
+---
 
-- They can view quests directly from on Miniapp on Minipay wallet.
-- When content creators are paid they receive the cUSD directly into their Minipay wallet.
+## 🚀 Solana Integration
+
+### For Brands
+- Connect your **Solana wallet** (Phantom, Solflare, Backpack).  
+- Fund prize pools in **USDC-SPL**.  
+- Manage and track payouts with **on-chain transparency**.  
+
+### For Content Creators
+- View & join quests directly on Questpanda.  
+- Submit proof of content creation (video links).  
+- Receive **instant payouts** in USDC-SPL directly to your wallet.  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Blockchain**: Solana (USDC-SPL for payments, Solana Pay for deposits)  
+- **Frontend**: Next.js + React + TailwindCSS + ShadCN UI  
+- **Wallets**: Phantom, Solflare, Backpack  
+- **Smart Contracts**: Anchor framework (Rust) for prize pool management  
+- **AI**: Content & engagement validation pipeline  
+
+---
+
+## 🌍 Vision
+
+Questpanda’s mission is simple:  
+
+> **Empower creators globally with instant, borderless rewards — powered by Solana.**  
+
+By blending **viral content creation** with **on-chain finance**, Questpanda unlocks a new wave of marketing + earning opportunities.  
+
+---
+
+## 📜 License
+
+MIT License © 2025 Questpanda Team
